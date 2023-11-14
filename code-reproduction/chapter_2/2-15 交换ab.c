@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     int a,b,temp;
     printf("输入整数a,b:");

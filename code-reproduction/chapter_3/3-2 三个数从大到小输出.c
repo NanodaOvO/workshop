@@ -1,27 +1,26 @@
-#include <stdio.h>
+#include "stdio.h"
 
-int main()
+void main()
 {
-    int a, b, c, t;
-    scanf("%d%d%d", &a, &b, &c);
-    if (a > b)
+    float a, b, c, t;
+    scanf("%f%f%f", &a, &b, &c);
+    if (a < b)
     {
         t = a;
         a = b;
         b = t;
     }
-    if (a > c)
+    if (a < c)
     {
         t = a;
         a = c;
         c = t;
     }
-    if (b > c)
+    if (b < c)
     {
         t = b;
         b = c;
         c = t;
     }
-    printf("%d %d %d", a, b, c);
-    return 0;
+    printf("%.2f %.2f %.2f\n", a, b, c);
 }
