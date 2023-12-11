@@ -2,7 +2,7 @@
 
 // 2 < n < 10000
 
-int fib(int n);
+int fib(int);
 
 int main()
 {

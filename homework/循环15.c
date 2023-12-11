@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int prime(int i);
+int prime(int);
 
 int main(){
     int n, i, b = 0;
